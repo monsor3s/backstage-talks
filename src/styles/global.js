@@ -6,8 +6,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     outline: 0;
     font-size: 62.5%;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 :root {
     --blue-light: #00c1b5;
     --yellow: #ffbe00;
