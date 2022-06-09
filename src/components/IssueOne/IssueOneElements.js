@@ -64,3 +64,43 @@ export const BodyCentralSubTittle = styled.p`
     line-height: 22px;
 `;
 
+export const ContainerFooterLeft = styled.div`
+    position: relative;
+    width: 395px;
+    height: 232px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+`;
+
+export const Description = styled.p`
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+`;
+
+export const SpanCopyright = styled.span`
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 25px;
+`;
+
+export const Published = styled.a`
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: underline;
+    line-height: 25px;
+`;
+
+export const FooterParagraph = styled.p`
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 20px;
+
+    &:hover {
+        text-decoration: none;
+    }
+`;
