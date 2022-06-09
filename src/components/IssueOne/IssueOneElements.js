@@ -16,9 +16,10 @@ export const ContainerBackground = styled.div`
 `;
 
 export const ContainerHeaderTittle = styled.div`
-    width: auto;
-    height: 50px;
+    width: 424px;
+    height: 771px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 `;
