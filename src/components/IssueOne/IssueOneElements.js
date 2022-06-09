@@ -106,25 +106,24 @@ export const FooterParagraph = styled.p`
 `;
 
 export const ContainerFooterRight = styled.div`
+    position: relative;
     width: 200px;
     height: 157px;
 `;
 
 export const MenuFooter = styled.ul`
-    position: absolute;
-    bottom: 0px;
-    right: 15px;
+    position: relative;
+    background-color: pink;
     width: 200px;
     text-align: right;
-    display: none;
-    z-index: 3;
     list-style: none;
     font-size: 18px;
     line-height: 1.6;
 `;
 
 export const MenuFooterItem = styled.li`
-
+    width: 160px;
+    height: 28px;
 `;
 
 export const MenuLink = styled.a`
