@@ -16,12 +16,12 @@ export const ContainerBackground = styled.div`
 `;
 
 export const ContainerHeaderTittle = styled.div`
+    position: absolute;
     width: 424px;
     height: 771px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
 `;
 
 export const HeaderTittle = styled.img`
@@ -69,7 +69,6 @@ export const ContainerFooterLeft = styled.div`
     position: relative;
     width: 395px;
     height: 232px;
-    padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,7 +113,6 @@ export const ContainerFooterRight = styled.div`
 
 export const MenuFooter = styled.ul`
     position: relative;
-    background-color: pink;
     width: 200px;
     text-align: right;
     list-style: none;
@@ -125,6 +123,10 @@ export const MenuFooter = styled.ul`
 export const MenuFooterItem = styled.li`
     width: 160px;
     height: 28px;
+
+    &:hover {
+        text-decoration: underline;
+    }
 `;
 
 export const MenuLink = styled.a`
