@@ -104,3 +104,33 @@ export const FooterParagraph = styled.p`
         text-decoration: none;
     }
 `;
+
+export const ContainerFooterRight = styled.div`
+    width: 200px;
+    height: 157px;
+`;
+
+export const MenuFooter = styled.ul`
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    width: 200px;
+    text-align: right;
+    display: none;
+    z-index: 3;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+`;
+
+export const MenuFooterItem = styled.li`
+
+`;
+
+export const MenuLink = styled.a`
+    color: black;
+    text-align: right;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+`;

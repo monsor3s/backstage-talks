@@ -6,12 +6,16 @@ import {
     ContainerBackground, 
     ContainerBodyCentral, 
     ContainerFooterLeft, 
+    ContainerFooterRight, 
     ContainerHeaderTittle, 
     Description, 
     FooterParagraph, 
     HeaderContact, 
     HeaderTittle, 
     ImgCentral,
+    MenuFooter,
+    MenuFooterItem,
+    MenuLink,
     Published,
     SpanCopyright
 } from './IssueOneElements'
@@ -39,6 +43,25 @@ const IssueOne = () => {
                 </SpanCopyright>
                 <FooterParagraph>Privacy Policy</FooterParagraph>
             </ContainerFooterLeft>
+            <ContainerFooterRight>
+                <MenuFooter>
+                    <MenuFooterItem>
+                        <MenuLink>Issue #1</MenuLink>
+                    </MenuFooterItem>
+                    <MenuFooterItem>
+                        <MenuLink>Issue #2</MenuLink>
+                    </MenuFooterItem>
+                    <MenuFooterItem>
+                        <MenuLink>Issue #3</MenuLink>
+                    </MenuFooterItem>
+                    <MenuFooterItem>
+                        <MenuLink>Issue #4</MenuLink>
+                    </MenuFooterItem>
+                    <MenuFooterItem>
+                        <MenuLink>Issue #5</MenuLink>
+                    </MenuFooterItem>
+                </MenuFooter>
+            </ContainerFooterRight>
         </ContainerBackground>
     </Background>
   )
