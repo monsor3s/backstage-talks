@@ -18,7 +18,8 @@ import {
     MenuFooterItem,
     MenuLink,
     Published,
-    SpanCopyright
+    SpanCopyright,
+    StockList
 } from './IssueOneElements'
 
 import HeaderImg from '../../assets/logo.png'
@@ -41,9 +42,9 @@ const IssueOne = () => {
             <ContainerBodyCentral>
                 <ImgCentral src={AssetBody} alt="Body Image" />
                 <BodyCentralTittle>Issue #1 is sold out.</BodyCentralTittle>
-                <BodyCentralSubTittle>if you are lucky, you may get the last pieces in selected stores.</BodyCentralSubTittle>
-            </ContainerBodyCentral>
-            
+                <BodyCentralSubTittle>if you are lucky, you may get the last pieces in <StockList>selected stores</StockList>.
+                </BodyCentralSubTittle>
+            </ContainerBodyCentral>  
             <ContainerFooterRight>
                 <FooterRight>
                     <HeaderContact>info@backstagetalks.com</HeaderContact>

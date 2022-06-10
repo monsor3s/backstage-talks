@@ -13,21 +13,19 @@ export const Background = styled.div`
 export const ContainerBackground = styled.div`
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
-
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr; 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
 `;
 
 export const ContainerHeaderTittle = styled.div`
-    position: absolute;
-    width: 424px;
+    position: relative;
+    width: 365px;
     height: 771px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    grid-column-start: 1;
-    grid-column-end: 2;
 `;
 
 export const HeaderTittle = styled.img`
@@ -36,45 +34,9 @@ export const HeaderTittle = styled.img`
     height: 30px;
 `;
 
-export const HeaderContact = styled.a`
-    position: relative;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 25px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-`;
-
-export const ContainerBodyCentral = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-column-start: 3;
-    grid-column-end: 4;
-`;
-
-export const ImgCentral = styled.img`
-    width: 420px;
-`;
-
-export const BodyCentralTittle = styled.p`
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 25px;
-`;
-
-export const BodyCentralSubTittle = styled.p`
-    font-size: 15px;
-    font-weight: bold;
-    padding-top: 3px;
-    line-height: 22px;
-`;
-
 export const ContainerFooterLeft = styled.div`
     position: relative;
-    width: 395px;
+    width: 365px;
     height: 232px;
     display: flex;
     flex-direction: column;
@@ -99,6 +61,10 @@ export const Published = styled.a`
     font-weight: normal;
     text-decoration: underline;
     line-height: 25px;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export const FooterParagraph = styled.p`
@@ -109,6 +75,54 @@ export const FooterParagraph = styled.p`
 
     &:hover {
         text-decoration: none;
+        cursor: pointer;
+    }
+`;
+
+export const HeaderContact = styled.a`
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+`;
+
+export const ContainerBodyCentral = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const ImgCentral = styled.img`
+    width: 420px;
+`;
+
+export const BodyCentralTittle = styled.p`
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+`;
+
+export const BodyCentralSubTittle = styled.p`
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 3px;
+    line-height: 22px;
+`;
+
+export const StockList = styled.a`
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 3px;
+    line-height: 22px;
+    color: white;
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
     }
 `;
 
@@ -116,8 +130,6 @@ export const ContainerFooterRight = styled.div`
     position: relative;
     width: 224px;
     height: 771px;
-    grid-column-start: 6;
-    grid-column-end: 7;
     
 `;
 
@@ -150,6 +162,7 @@ export const MenuFooterItem = styled.li`
 
     &:hover {
         text-decoration: underline;
+        cursor: pointer;
     }
 `;
 
