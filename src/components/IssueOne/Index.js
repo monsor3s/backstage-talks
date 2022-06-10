@@ -10,6 +10,7 @@ import {
     ContainerHeaderTittle, 
     Description, 
     FooterParagraph, 
+    FooterRight, 
     HeaderContact, 
     HeaderTittle, 
     ImgCentral,
@@ -44,24 +45,26 @@ const IssueOne = () => {
             </ContainerBodyCentral>
             
             <ContainerFooterRight>
-                <HeaderContact>info@backstagetalks.com</HeaderContact>
-                <MenuFooter>
-                    <MenuFooterItem>
-                        <MenuLink>Issue #1</MenuLink>
-                    </MenuFooterItem>
-                    <MenuFooterItem>
-                        <MenuLink>Issue #2</MenuLink>
-                    </MenuFooterItem>
-                    <MenuFooterItem>
-                        <MenuLink>Issue #3</MenuLink>
-                    </MenuFooterItem>
-                    <MenuFooterItem>
-                        <MenuLink>Issue #4</MenuLink>
-                    </MenuFooterItem>
-                    <MenuFooterItem>
-                        <MenuLink>Issue #5</MenuLink>
-                    </MenuFooterItem>
-                </MenuFooter>
+                <FooterRight>
+                    <HeaderContact>info@backstagetalks.com</HeaderContact>
+                    <MenuFooter>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #1</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #2</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #3</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #4</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #5</MenuLink>
+                        </MenuFooterItem>
+                    </MenuFooter>
+                </FooterRight>
             </ContainerFooterRight>
         </ContainerBackground>
     </Background>

@@ -13,6 +13,10 @@ export const Background = styled.div`
 export const ContainerBackground = styled.div`
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr; 
 `;
 
 export const ContainerHeaderTittle = styled.div`
@@ -22,6 +26,8 @@ export const ContainerHeaderTittle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 2;
 `;
 
 export const HeaderTittle = styled.img`
@@ -45,6 +51,8 @@ export const ContainerBodyCentral = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
 `;
 
 export const ImgCentral = styled.img`
@@ -106,22 +114,39 @@ export const FooterParagraph = styled.p`
 
 export const ContainerFooterRight = styled.div`
     position: relative;
-    width: 200px;
-    height: 157px;
+    width: 224px;
+    height: 771px;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    
+`;
+
+export const FooterRight = styled.div`
+    position: relative;
+    width: 224px;
+    height: 771px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 `;
 
 export const MenuFooter = styled.ul`
     position: relative;
-    width: 200px;
-    text-align: right;
+    width: 100px;
     list-style: none;
     font-size: 18px;
-    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 `;
 
 export const MenuFooterItem = styled.li`
-    width: 160px;
+    position: relative;
+    width: 70px;
     height: 28px;
+    
 
     &:hover {
         text-decoration: underline;
@@ -129,6 +154,7 @@ export const MenuFooterItem = styled.li`
 `;
 
 export const MenuLink = styled.a`
+    position: relative;
     color: black;
     text-align: right;
     list-style: none;
