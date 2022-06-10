@@ -28,7 +28,6 @@ export const HeaderTittle = styled.img`
     position: relative;
     width: 260px;
     height: 30px;
-    
 `;
 
 export const HeaderContact = styled.a`
