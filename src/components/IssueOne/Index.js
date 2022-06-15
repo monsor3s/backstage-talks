@@ -50,19 +50,19 @@ const IssueOne = () => {
                     <HeaderContact>info@backstagetalks.com</HeaderContact>
                     <MenuFooter>
                         <MenuFooterItem>
-                            <MenuLink>Issue #1</MenuLink>
-                        </MenuFooterItem>
-                        <MenuFooterItem>
-                            <MenuLink>Issue #2</MenuLink>
-                        </MenuFooterItem>
-                        <MenuFooterItem>
-                            <MenuLink>Issue #3</MenuLink>
+                            <MenuLink>Issue #5</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
                             <MenuLink>Issue #4</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #5</MenuLink>
+                            <MenuLink>Issue #3</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #2</MenuLink>
+                        </MenuFooterItem>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #1</MenuLink>
                         </MenuFooterItem>
                     </MenuFooter>
                 </FooterRight>
