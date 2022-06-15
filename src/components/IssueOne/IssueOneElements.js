@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Background = styled.div`
-    width: 100vw;
     height: 100vh;
+    overflow: hidden;
     background-color: var(--red);
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ export const ContainerBackground = styled.div`
 export const ContainerHeaderTittle = styled.div`
     position: relative;
     width: 365px;
-    height: 771px;
+    height: 715px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,6 +38,7 @@ export const ContainerFooterLeft = styled.div`
     position: relative;
     width: 365px;
     height: 232px;
+    padding-left: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,9 +46,11 @@ export const ContainerFooterLeft = styled.div`
 `;
 
 export const Description = styled.p`
+    width: 320px;
     font-size: 18px;
     font-weight: bold;
     line-height: 25px;
+    
 `;
 
 export const SpanCopyright = styled.span`
@@ -130,13 +133,12 @@ export const ContainerFooterRight = styled.div`
     position: relative;
     width: 224px;
     height: 771px;
-    
 `;
 
 export const FooterRight = styled.div`
     position: relative;
     width: 224px;
-    height: 771px;
+    height: 715px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
