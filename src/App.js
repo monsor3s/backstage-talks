@@ -1,12 +1,12 @@
-import IssueOne from "./components/IssueOne/Index";
 import GlobalStyle from "./styles/global";
+import Issue from "./components/Issue/Index";
 
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <IssueOne />
+      <Issue />
     </>
   );
 }

@@ -20,19 +20,19 @@ import {
     Published,
     SpanCopyright,
     StockList
-} from './IssueOneElements'
+} from './IssueElements'
 
 import HeaderImg from '../../assets/logo.png'
 import AssetBody from '../../assets/assetIssue1.png'
 
-const IssueOne = () => {
+const Issue = () => {
   return (
     <Background>
         <ContainerBackground>
             <ContainerHeaderTittle>
                 <HeaderTittle src={HeaderImg} alt="Header Image"/>
                     <ContainerFooterLeft>
-                    <Description>Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right ones, we need to talk. </Description>
+                    <Description>Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right s, we need to talk. </Description>
                     <SpanCopyright>© 2022
                             <Published> Published by studio Milk</Published>
                     </SpanCopyright>
@@ -72,4 +72,4 @@ const IssueOne = () => {
   )
 }
 
-export default IssueOne
+export default Issue
