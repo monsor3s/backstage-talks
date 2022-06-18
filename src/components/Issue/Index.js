@@ -18,9 +18,14 @@ import {
     MenuFooterItem,
     MenuLink,
     Published,
+    SectionIssueOne,
+    SectionIssueThree,
+    SectionIssueTwo,
     SectionScroll,
     SpanCopyright,
-    StockList
+    StockList,
+    TextBuy,
+    TextSection
 } from './IssueElements'
 
 import HeaderImg from '../../assets/logo.png'
@@ -44,13 +49,23 @@ const Issue = () => {
             </ContainerHeaderTittle>
             <ContainerBodyCentral>
                 <SectionScroll>
-                    <ImgCentral src={IssueOne} alt="Issue One" />
-                    <ImgCentral src={IssueTwo} alt="Issue Two" />
-                    <ImgCentral src={IssueThree} alt="Issue Three" />
+                    <SectionIssueOne>
+                        <ImgCentral src={IssueOne} alt="Issue One" />
+                        <BodyCentralTittle>Issue #1 is sold out.</BodyCentralTittle>
+                        <BodyCentralSubTittle>if you are lucky, you may get the last pieces in<StockList>selected stores</StockList>.
+                        </BodyCentralSubTittle>       
+                    </SectionIssueOne>
+                    <SectionIssueTwo>
+                        <ImgCentral src={IssueTwo} alt="Issue Two" />
+                        <TextBuy>BUY HERE</TextBuy>
+                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
+                    </SectionIssueTwo>
+                    <SectionIssueThree>
+                        <ImgCentral src={IssueThree} alt="Issue Three" />
+                        <TextBuy>BUY HERE</TextBuy>
+                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
+                    </SectionIssueThree>
                 </SectionScroll>
-                <BodyCentralTittle>Issue #1 is sold out.</BodyCentralTittle>
-                <BodyCentralSubTittle>if you are lucky, you may get the last pieces in <StockList>selected stores</StockList>.
-                </BodyCentralSubTittle>
             </ContainerBodyCentral>  
             <ContainerFooterRight>
                 <FooterRight>
