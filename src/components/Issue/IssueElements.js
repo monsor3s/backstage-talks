@@ -99,8 +99,18 @@ export const ContainerBodyCentral = styled.div`
     align-items: center;
 `;
 
+export const SectionScroll = styled.div`
+    width: 500px;
+    /* scrollbar-width: none; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+
+`;
+
 export const ImgCentral = styled.img`
     width: 420px;
+    scroll-snap-align: center;
 `;
 
 export const BodyCentralTittle = styled.p`

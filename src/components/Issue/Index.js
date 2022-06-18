@@ -18,12 +18,15 @@ import {
     MenuFooterItem,
     MenuLink,
     Published,
+    SectionScroll,
     SpanCopyright,
     StockList
 } from './IssueElements'
 
 import HeaderImg from '../../assets/logo.png'
-import AssetBody from '../../assets/assetIssue1.png'
+import IssueOne from '../../assets/assetIssue1.png'
+import IssueTwo from '../../assets/assetIssue2.png'
+import IssueThree from '../../assets/assetIssue3.png'
 
 const Issue = () => {
   return (
@@ -40,7 +43,11 @@ const Issue = () => {
                     </ContainerFooterLeft>
             </ContainerHeaderTittle>
             <ContainerBodyCentral>
-                <ImgCentral src={AssetBody} alt="Body Image" />
+                <SectionScroll>
+                    <ImgCentral src={IssueOne} alt="Issue One" />
+                    <ImgCentral src={IssueTwo} alt="Issue Two" />
+                    <ImgCentral src={IssueThree} alt="Issue Three" />
+                </SectionScroll>
                 <BodyCentralTittle>Issue #1 is sold out.</BodyCentralTittle>
                 <BodyCentralSubTittle>if you are lucky, you may get the last pieces in <StockList>selected stores</StockList>.
                 </BodyCentralSubTittle>
