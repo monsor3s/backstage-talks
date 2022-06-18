@@ -101,10 +101,10 @@ export const ContainerBodyCentral = styled.div`
 
 export const SectionScroll = styled.div`
     width: 500px;
-    /* scrollbar-width: none; */
+    scrollbar-width: none;
     overflow-x: hidden;
     overflow-y: auto;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
 
 `;
 
@@ -115,7 +115,6 @@ export const SectionIssueOne = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 `;
 
 export const SectionIssueTwo = styled(SectionIssueOne)`
@@ -125,6 +124,19 @@ export const SectionIssueTwo = styled(SectionIssueOne)`
 export const SectionIssueThree = styled(SectionIssueOne)`
 
 `;
+
+export const SectionIssueFour = styled(SectionIssueOne)`
+
+`;
+
+export const SectionIssueFive = styled(SectionIssueOne)`
+
+`;
+
+export const SectionIssueSix = styled(SectionIssueOne)`
+
+`;
+
 
 export const TextBuy = styled.a`
     font-size: 15px;
