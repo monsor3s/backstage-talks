@@ -3,17 +3,16 @@ import styled from 'styled-components';
 export const Background = styled.div`
     height: 100vh;
     overflow: hidden;
-    background-color: var(--red);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 `;
 
 export const ContainerBackground = styled.div`
     width: calc(100vw - 30px);
     height: calc(100vh - 30px);
     position: relative;
-    background-color: var(--red);
     display: flex;
     justify-content: space-between;
     align-items: space-between;

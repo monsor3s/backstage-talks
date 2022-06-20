@@ -39,6 +39,7 @@ import IssueFour from '../../assets/assetIssue4.png'
 import IssueFive from '../../assets/assetIssue5.png'
 import IssueSix from '../../assets/assetIssue6.png'
 
+
 const Issue = () => {
   return (
     <Background>
@@ -92,6 +93,9 @@ const Issue = () => {
                 <FooterRight>
                     <HeaderContact>info@backstagetalks.com</HeaderContact>
                     <MenuFooter>
+                        <MenuFooterItem>
+                            <MenuLink>Issue #6</MenuLink>
+                        </MenuFooterItem>
                         <MenuFooterItem>
                             <MenuLink>Issue #5</MenuLink>
                         </MenuFooterItem>
