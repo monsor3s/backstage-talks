@@ -56,11 +56,6 @@ const Issue = () => {
             </ContainerHeaderTittle>
             <ContainerBodyCentral>
                 <SectionScroll>
-                    <SectionIssueSix>
-                        <ImgCentral src={IssueSix} alt="Issue Six" />
-                        <TextBuy>BUY HERE</TextBuy>
-                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
-                    </SectionIssueSix>
                     <SectionIssueFive>
                         <ImgCentral src={IssueFive} alt="Issue Five" />
                         <TextBuy>BUY HERE</TextBuy>
