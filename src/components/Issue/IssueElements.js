@@ -6,7 +6,7 @@ export const Background = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: var(--blue-light);
 `;
 
 export const ContainerBackground = styled.div`
