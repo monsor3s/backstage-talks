@@ -128,9 +128,7 @@ export const SectionIssueFour = styled(SectionIssueOne)`
 
 `;
 
-export const SectionIssueFive = styled(SectionIssueOne)`
 
-`;
 
 export const SectionIssueSix = styled(SectionIssueOne)`
 

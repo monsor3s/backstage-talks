@@ -18,10 +18,7 @@ import {
     MenuFooterItem,
     MenuLink,
     Published,
-    SectionIssueFive,
-    SectionIssueFour,
     SectionIssueOne,
-    SectionIssueSix,
     SectionIssueThree,
     SectionIssueTwo,
     SectionScroll,
@@ -36,8 +33,7 @@ import IssueOne from '../../assets/assetIssue1.png'
 import IssueTwo from '../../assets/assetIssue2.png'
 import IssueThree from '../../assets/assetIssue3.png'
 import IssueFour from '../../assets/assetIssue4.png'
-import IssueFive from '../../assets/assetIssue5.png'
-import IssueSix from '../../assets/assetIssue6.png'
+
 
 
 const Issue = () => {
@@ -56,16 +52,6 @@ const Issue = () => {
             </ContainerHeaderTittle>
             <ContainerBodyCentral>
                 <SectionScroll>
-                    <SectionIssueFive>
-                        <ImgCentral src={IssueFive} alt="Issue Five" />
-                        <TextBuy>BUY HERE</TextBuy>
-                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
-                    </SectionIssueFive>
-                    <SectionIssueFour>
-                        <ImgCentral src={IssueFour} alt="Issue Four" />
-                        <TextBuy>BUY HERE</TextBuy>
-                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
-                    </SectionIssueFour>
                     <SectionIssueThree>
                         <ImgCentral src={IssueThree} alt="Issue Three" />
                         <TextBuy>BUY HERE</TextBuy>

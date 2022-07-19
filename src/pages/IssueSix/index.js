@@ -1,6 +1,9 @@
 import React from 'react'
 import { ImgCentral, SectionIssueSix, StockList, TextBuy, TextSection } from './IssueSixElements'
 
+import IssueSix from '../../assets/assetIssue6.png'
+
+
 function IssueSix()  {
   return (
     <SectionIssueSix>
