@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { 
     Background, 
-    BodyCentralSubTittle, 
-    BodyCentralTittle, 
     ContainerBackground, 
     ContainerBodyCentral, 
     ContainerFooterLeft, 
@@ -13,26 +11,16 @@ import {
     FooterRight, 
     HeaderContact, 
     HeaderTittle, 
-    ImgCentral,
     MenuFooter,
     MenuFooterItem,
     MenuLink,
     Published,
-    SectionIssueOne,
-    SectionIssueThree,
-    SectionIssueTwo,
     SectionScroll,
-    SpanCopyright,
-    StockList,
-    TextBuy,
-    TextSection
+    SpanCopyright
 } from './IssueElements'
 
 import HeaderImg from '../../assets/logo.png'
-import IssueOne from '../../assets/assetIssue1.png'
-import IssueTwo from '../../assets/assetIssue2.png'
-import IssueThree from '../../assets/assetIssue3.png'
-import IssueFour from '../../assets/assetIssue4.png'
+
 
 
 
@@ -52,22 +40,6 @@ const Issue = () => {
             </ContainerHeaderTittle>
             <ContainerBodyCentral>
                 <SectionScroll>
-                    <SectionIssueThree>
-                        <ImgCentral src={IssueThree} alt="Issue Three" />
-                        <TextBuy>BUY HERE</TextBuy>
-                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
-                    </SectionIssueThree>
-                    <SectionIssueTwo>
-                        <ImgCentral src={IssueTwo} alt="Issue Two" />
-                        <TextBuy>BUY HERE</TextBuy>
-                        <TextSection>or in<StockList>selected stores</StockList>.</TextSection>
-                    </SectionIssueTwo>
-                    <SectionIssueOne>
-                        <ImgCentral src={IssueOne} alt="Issue One" />
-                        <BodyCentralTittle>Issue #1 is sold out.</BodyCentralTittle>
-                        <BodyCentralSubTittle>if you are lucky, you may get the last pieces in<StockList>selected stores</StockList>.
-                        </BodyCentralSubTittle>       
-                    </SectionIssueOne>
                 </SectionScroll>
             </ContainerBodyCentral>  
             <ContainerFooterRight>

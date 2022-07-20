@@ -21,7 +21,7 @@ export const ContainerBackground = styled.div`
 export const ContainerHeaderTittle = styled.div`
     position: relative;
     width: 365px;
-    height: 715px;
+    height: calc(100vh - 30px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -107,34 +107,6 @@ export const SectionScroll = styled.div`
 
 `;
 
-export const SectionIssueOne = styled.div`
-    width: 500px;
-    height: 727px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-`;
-
-export const SectionIssueTwo = styled(SectionIssueOne)`
-
-`;
-
-export const SectionIssueThree = styled(SectionIssueOne)`
-
-`;
-
-export const SectionIssueFour = styled(SectionIssueOne)`
-
-`;
-
-
-
-export const SectionIssueSix = styled(SectionIssueOne)`
-
-`;
-
-
 
 export const BodyCentralTittle = styled.p`
     font-size: 18px;
@@ -153,13 +125,13 @@ export const BodyCentralSubTittle = styled.p`
 export const ContainerFooterRight = styled.div`
     position: relative;
     width: 224px;
-    height: 771px;
+    height: calc(100vh - 30px);
 `;
 
 export const FooterRight = styled.div`
     position: relative;
     width: 224px;
-    height: 715px;
+    height: calc(100vh - 30px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
