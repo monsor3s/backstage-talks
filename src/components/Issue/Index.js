@@ -18,6 +18,7 @@ import {
     SectionScroll,
     SpanCopyright
 } from './IssueElements'
+import { Link } from 'react-router-dom'
 
 import HeaderImg from '../../assets/logo.png'
 
@@ -44,22 +45,22 @@ const Issue = () => {
                     <HeaderContact>info@backstagetalks.com</HeaderContact>
                     <MenuFooter>
                         <MenuFooterItem>
-                            <MenuLink>Issue #6</MenuLink>
+                            <Link to='/'>Issue #6</Link>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #5</MenuLink>
+                            <Link to='/issue5'>Issue #5</Link>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #4</MenuLink>
+                            <Link to='/issue4'>Issue #4</Link>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #3</MenuLink>
+                            <Link to='/issue3'>Issue #3</Link>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #2</MenuLink>
+                            <Link to='/issue2'>Issue #2</Link>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <MenuLink>Issue #1</MenuLink>
+                            <Link to='/issue1'>Issue #1</Link>
                         </MenuFooterItem>
                     </MenuFooter>
                 </FooterRight>

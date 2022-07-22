@@ -1,12 +1,20 @@
 import GlobalStyle from "./styles/global";
 import Issue from "./components/Issue/Index";
+import PageIssueSix from './pages/IssueSix'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Issue />
+      <Router>
+        <Issue />
+        <Routes>
+          <Route path='/' element={<PageIssueSix/>}>
+          </Route>
+        </Routes>
+      </Router>
     </>
   );
 }
