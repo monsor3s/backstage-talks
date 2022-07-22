@@ -4,7 +4,7 @@ import { ImgCentral, SectionIssueTwo, StockList, TextBuy, TextSection } from './
 import IssueTwo from '../../assets/assetIssue2.png'
 
 
-function IssueTwo()  {
+function PageIssueTwo()  {
   return (
     <SectionIssueTwo>
         <ImgCentral src={IssueTwo} alt="Issue Two" />
@@ -14,4 +14,4 @@ function IssueTwo()  {
   )
 }
 
-export default IssueTwo
+export default PageIssueTwo

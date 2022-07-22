@@ -21,9 +21,6 @@ import {
 
 import HeaderImg from '../../assets/logo.png'
 
-
-
-
 const Issue = () => {
   return (
     <Background>

@@ -1,9 +1,10 @@
-import React from 'react'
+import * as React from 'react'
+
 import { ImgCentral, SectionIssueFive, StockList, TextBuy, TextSection } from './IssueFiveElements'
 
 import IssueFive from '../../assets/assetIssue5.png'
 
-function IssueFive()  {
+function PageIssueFive()  {
     return (
             <SectionIssueFive>
                 <ImgCentral src={IssueFive} alt="Issue Five" />
@@ -13,4 +14,4 @@ function IssueFive()  {
     )
 }
 
-export default IssueFive
+export default PageIssueFive
