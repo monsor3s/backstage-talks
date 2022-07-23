@@ -45,22 +45,22 @@ const Issue = () => {
                     <HeaderContact>info@backstagetalks.com</HeaderContact>
                     <MenuFooter>
                         <MenuFooterItem>
-                            <Link to='/'>Issue #6</Link>
+                            <MenuLink to='/'>Issue #6</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <Link to='/issue5'>Issue #5</Link>
+                            <MenuLink to='/issue5'>Issue #5</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <Link to='/issue4'>Issue #4</Link>
+                            <MenuLink to='/issue4'>Issue #4</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <Link to='/issue3'>Issue #3</Link>
+                            <MenuLink to='/issue3'>Issue #3</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <Link to='/issue2'>Issue #2</Link>
+                            <MenuLink to='/issue2'>Issue #2</MenuLink>
                         </MenuFooterItem>
                         <MenuFooterItem>
-                            <Link to='/issue1'>Issue #1</Link>
+                            <MenuLink to='/issue1'>Issue #1</MenuLink>
                         </MenuFooterItem>
                     </MenuFooter>
                 </FooterRight>

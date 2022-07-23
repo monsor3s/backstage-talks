@@ -11,8 +11,7 @@ function App() {
       <Router>
         <Issue />
         <Routes>
-          <Route path='/' element={<PageIssueSix/>}>
-          </Route>
+          <Route path='/' element={<PageIssueSix/>} />
         </Routes>
       </Router>
     </>
