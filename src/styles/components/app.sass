@@ -1,0 +1,39 @@
+@use '../variables'
+
+.main-section
+  width: 100vw
+  height: 100vh
+  padding: 20px
+
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: 1fr 
+  
+  .logo
+    position: relative
+    width: 260px
+    height: 30px
+
+.section-left
+  background-color: variables.$blue-light
+
+
+  .description
+    position: absolute
+    width: 320px
+    font-size: 18px
+    font-weight: bold
+    line-height: 25px
+
+    .span-copyright
+      display: flex
+      gap: 5px
+      font-size: 12px
+      font-weight: normal
+
+      .published
+        text-decoration: underline
+
+    .main-privacy
+      font-size: 16px
+      text-decoration: underline
