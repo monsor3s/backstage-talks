@@ -18,7 +18,29 @@ function App() {
 
         </div>
         <div className="section-right">
-
+          <p className="contact">
+            <a className="link" href="mailto:info@backstagetalks.com">info@backstagetalks.com</a>
+          </p>
+            <ul className="menu">
+              <li>
+                <a href="#issue6" className="menu-link">Issue #6</a>
+              </li>
+              <li>
+                <a href="#issue5" className="menu-link">Issue #5</a>
+              </li>
+              <li>
+                <a href="#issue4" className="menu-link">Issue #4</a>
+              </li>
+              <li>
+                <a href="#issue3" className="menu-link">Issue #3</a>
+              </li>
+              <li>
+                <a href="#issue2" className="menu-link">Issue #2</a>
+              </li>
+              <li>
+                <a href="#issue1" className="menu-link">Issue #1</a>
+              </li>
+            </ul>
         </div>
       </section>
     </body>
