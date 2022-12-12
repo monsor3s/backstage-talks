@@ -15,11 +15,14 @@
     height: 30px
 
 .section-left
-  background-color: variables.$blue-light
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  
 
 
   .description
-    position: absolute
+    position: relative
     width: 320px
     font-size: 18px
     font-weight: bold
@@ -33,7 +36,16 @@
 
       .published
         text-decoration: underline
+        color: #000
+
+      &:hover, &:focus, &:active
+        text-decoration: none
+        cursor: pointer
 
     .main-privacy
       font-size: 16px
       text-decoration: underline
+
+      &:hover, &:focus, &:active
+        text-decoration: none
+        cursor: pointer

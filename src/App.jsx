@@ -10,7 +10,7 @@ function App() {
         <div className="section-left">
           <img className="logo" src={Logo} alt="logo" />
           <p className="description">Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right s, we need to talk.
-          <span className="span-copyright">© 2022<a className="published">Published by studio Milk</a></span>
+          <span className="span-copyright">© 2022<a href="milk.sk" className="published">Published by studio Milk</a></span>
           <p className="main-privacy">Privacy Policy</p>
           </p>
         </div>
