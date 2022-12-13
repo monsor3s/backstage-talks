@@ -1,4 +1,5 @@
 import Logo from "../src/assets/logo.png"
+import ImgIssue6 from "../src/assets/assetIssue6.png"
 
 import "../src/styles/components/app.sass"
 
@@ -15,7 +16,10 @@ function App() {
           </p>
         </div>
         <div className="section-central">
-
+          <img src={ImgIssue6} className="main-img" alt="img issue6" />
+          <p>Issue #6</p>
+          <p className="link-issue6"><a href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a></p>
+          <p className="link-issue6">or in <a href="https://backstagetalks.com/stocklist.php">selected stores</a>.</p>
         </div>
         <div className="section-right">
           <p className="contact">
@@ -23,22 +27,22 @@ function App() {
           </p>
             <ul className="menu">
               <li>
-                <a href="#issue6" className="menu-link">Issue #6</a>
+                <a href="#issue6" className="menu-link issue6">Issue #6</a>
               </li>
               <li>
-                <a href="#issue5" className="menu-link">Issue #5</a>
+                <a href="#issue5" className="menu-link issue5">Issue #5</a>
               </li>
               <li>
-                <a href="#issue4" className="menu-link">Issue #4</a>
+                <a href="#issue4" className="menu-link issue4">Issue #4</a>
               </li>
               <li>
-                <a href="#issue3" className="menu-link">Issue #3</a>
+                <a href="#issue3" className="menu-link issue3">Issue #3</a>
               </li>
               <li>
-                <a href="#issue2" className="menu-link">Issue #2</a>
+                <a href="#issue2" className="menu-link issue2">Issue #2</a>
               </li>
               <li>
-                <a href="#issue1" className="menu-link">Issue #1</a>
+                <a href="#issue1" className="menu-link issue1">Issue #1</a>
               </li>
             </ul>
         </div>
