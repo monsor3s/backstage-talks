@@ -11,15 +11,19 @@ function App() {
         <div className="section-left">
           <img className="logo" src={Logo} alt="logo" />
           <p className="description">Backstage Talks is a magazine of casual, but in depth dialogues on design and business. Our decisions shape and influence this complex world—to have a chance to make the right s, we need to talk.
-          <span className="span-copyright">© 2022<a href="milk.sk" className="published">Published by studio Milk</a></span>
-          <p className="main-privacy">Privacy Policy</p>
+            <span className="span-copyright">© 2022<a href="milk.sk" className="published">Published by studio Milk</a></span>
+            <p className="main-privacy">Privacy Policy</p>
           </p>
         </div>
         <div className="section-central">
           <img src={ImgIssue6} className="main-img" alt="img issue6" />
-          <p>Issue #6</p>
-          <p className="link-issue6"><a href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a></p>
-          <p className="link-issue6">or in <a href="https://backstagetalks.com/stocklist.php">selected stores</a>.</p>
+          <p className="footer-title" >Issue #6</p>
+          <p>
+            <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+            </p>
+          <p>
+            or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+          </p>
         </div>
         <div className="section-right">
           <p className="contact">
