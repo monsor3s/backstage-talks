@@ -16,14 +16,16 @@ function App() {
           </p>
         </div>
         <div className="section-central">
-          <img src={ImgIssue6} className="main-img" alt="img issue6" />
-          <p className="footer-title" >Issue #6</p>
-          <p>
-            <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+          <div className="scroll-section">
+            <img src={ImgIssue6} className="main-img" alt="img issue6" />
+            <p className="footer-title" >Issue #6</p>
+            <p>
+              <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+              </p>
+            <p>
+              or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
-          <p>
-            or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
-          </p>
+          </div>
         </div>
         <div className="section-right">
           <p className="contact">
