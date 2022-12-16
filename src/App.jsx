@@ -1,5 +1,6 @@
 import Logo from "../src/assets/logo.png"
 import ImgIssue6 from "../src/assets/assetIssue6.png"
+import ImgIssue5 from "../src/assets/assetIssue5.png"
 
 import "../src/styles/components/app.sass"
 
@@ -19,6 +20,14 @@ function App() {
           <div className="scroll-section">
             <img src={ImgIssue6} className="main-img" alt="img issue6" />
             <p className="footer-title" >Issue #6</p>
+            <p>
+              <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+              </p>
+            <p>
+              or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+            </p>
+            <img src={ImgIssue5} className="main-img" alt="img issue5" />
+            <p className="footer-title" >Issue #5</p>
             <p>
               <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
               </p>
