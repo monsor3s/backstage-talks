@@ -4,7 +4,8 @@
   width: 100vw
   height: 100vh
   padding: 20px
-
+  overflow: hidden
+  
   display: grid
   grid-template-columns: repeat(3, 1fr)
   grid-template-rows: 1fr 
@@ -15,13 +16,13 @@
     height: 30px
 
 .section-left
-  height: 100vh
+  height: 710px
   display: flex
   flex-direction: column
   justify-content: space-between
   
+  
   .description
-    position: relative
     width: 320px
     font-size: 18px
     font-weight: bold
@@ -48,7 +49,7 @@
         cursor: pointer
 
 .section-central
-  height: 1200px
+  height: 100vh
   display: flex
   flex-direction: column
   justify-content: center
@@ -63,6 +64,7 @@
     
   .main-img
     width: 420px
+    padding-top: 60px
 
   .footer-title
     font-size: 18px
@@ -80,7 +82,7 @@
       cursor: pointer
 
 .section-right
-  height: 100vh
+  height: 710px
   display: flex
   flex-direction: column
   justify-content: space-between
