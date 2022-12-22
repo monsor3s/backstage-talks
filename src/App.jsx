@@ -1,6 +1,10 @@
 import Logo from "../src/assets/logo.png"
 import ImgIssue6 from "../src/assets/assetIssue6.png"
 import ImgIssue5 from "../src/assets/assetIssue5.png"
+import ImgIssue4 from "../src/assets/assetIssue4.png"
+import ImgIssue3 from "../src/assets/assetIssue3.png"
+import ImgIssue2 from "../src/assets/assetIssue2.png"
+import ImgIssue1 from "../src/assets/assetIssue1.png"
 
 import "../src/styles/components/app.sass"
 
@@ -18,14 +22,17 @@ function App() {
         </div>
         <div className="section-central">
           <div className="scroll-section">
-            <img src={ImgIssue6} className="main-img" alt="img issue6" />
-            <p className="footer-title" >Issue #6</p>
-            <p>
-              <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+            <div className="container-scroll">
+              <img src={ImgIssue6} className="main-img" alt="img issue6" />
+              <p className="footer-title" >Issue #6</p>
+              <p>
+                <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+                </p>
+              <p>
+                or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
               </p>
-            <p>
-              or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
-            </p>
+            </div>
+            <div className="container-scroll">
             <img src={ImgIssue5} className="main-img" alt="img issue5" />
             <p className="footer-title" >Issue #5</p>
             <p>
@@ -34,6 +41,41 @@ function App() {
             <p>
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
+            </div>
+            <div className="container-scroll">
+            <img src={ImgIssue4} className="main-img" alt="img issue4" />
+            <p className="footer-title" >Issue #4 is sold out.</p>
+            <p>
+              if you are lucky, you may get the last pieces in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+            </p>
+            </div>
+            <div className="container-scroll">
+            <img src={ImgIssue3} className="main-img" alt="img issue3" />
+            <p className="footer-title" >Issue #3</p>
+            <p>
+              <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+              </p>
+            <p>
+              or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+            </p>
+            </div>
+            <div className="container-scroll">
+            <img src={ImgIssue2} className="main-img" alt="img issue2" />
+            <p className="footer-title" >Issue #2</p>
+            <p>
+              <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
+              </p>
+            <p>
+              or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+            </p>
+            </div>
+            <div className="container-scroll">
+            <img src={ImgIssue1} className="main-img" alt="img issue1" />
+            <p className="footer-title" >Issue #1 is sold out.</p>
+            <p>
+              if you are lucky, you may get the last pieces in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
+            </p>
+            </div>
           </div>
         </div>
         <div className="section-right">
