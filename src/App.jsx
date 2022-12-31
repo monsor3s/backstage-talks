@@ -7,6 +7,7 @@ import ImgIssue2 from "../src/assets/assetIssue2.png"
 import ImgIssue1 from "../src/assets/assetIssue1.png"
 
 import "../src/styles/components/app.sass"
+import "../src/scripts/index.js"
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         </div>
         <div className="section-central">
           <div className="scroll-section">
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue6">
               <img src={ImgIssue6} className="main-img" alt="img issue6" />
               <p className="footer-title" >Issue #6</p>
               <p>
@@ -32,7 +33,7 @@ function App() {
                 or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
               </p>
             </div>
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue5">
             <img src={ImgIssue5} className="main-img" alt="img issue5" />
             <p className="footer-title" >Issue #5</p>
             <p>
@@ -42,14 +43,14 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue4">
             <img src={ImgIssue4} className="main-img" alt="img issue4" />
             <p className="footer-title" >Issue #4 is sold out.</p>
             <p>
               if you are lucky, you may get the last pieces in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue3">
             <img src={ImgIssue3} className="main-img" alt="img issue3" />
             <p className="footer-title" >Issue #3</p>
             <p>
@@ -59,7 +60,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue2">
             <img src={ImgIssue2} className="main-img" alt="img issue2" />
             <p className="footer-title" >Issue #2</p>
             <p>
@@ -69,7 +70,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div className="container-scroll">
+            <div className="container-scroll" data-anime="issue1">
             <img src={ImgIssue1} className="main-img" alt="img issue1" />
             <p className="footer-title" >Issue #1 is sold out.</p>
             <p>

@@ -64,7 +64,25 @@
     
     .container-scroll
       height: 100vh
-      
+    
+    [data-anime]
+      transform: translate3d(0px, 0px, 0px)
+      transition: all 700ms ease 0s
+    
+    [data-anime="issue5"]
+      background-color: variables.$blue-light
+
+    [data-anime="issue4"]
+      background-color: variables.$orange
+
+    [data-anime="issue3"]
+      background-color: variables.$yellow
+    
+    [data-anime="issue2"]
+      background-color: variables.$blue
+    
+    [data-anime="issue1"]
+      background-color: variables.$red
 
   .main-img
     width: 420px
