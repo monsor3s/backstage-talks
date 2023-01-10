@@ -1,10 +1,12 @@
-const menuLink = document.querySelectorAll('issue6')
-
-
-menuLink.forEach(item => {
-  item.addEventListener('click', changeBackground)
-})
+const target = document.querySelectorAll('issueSix');
 
 function changeBackground() {
-  console.log('clicou')
+  const windowTop = window.pageYOffset;
+  target.forEach(function(element) {
+    console.log(element.offsetTop);
+  })
 }
+
+window.addEventListener('scroll', function(){
+  changeBackground();
+})

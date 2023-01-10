@@ -23,34 +23,34 @@ function App() {
         </div>
         <div className="section-central">
           <div className="scroll-section">
-            <div id="issue6" className="container-scroll">
+            <div id="issueSix" className="container-scroll" data-anime="down">
               <img src={ImgIssue6} className="main-img" alt="img issue6" />
               <p className="footer-title" >Issue #6</p>
               <p>
                 <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
-                </p>
+              </p>
               <p>
                 or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
               </p>
             </div>
-            <div id="issue5" className="container-scroll">
+            <div id="issueFive" className="container-scroll" data-anime="down">
             <img src={ImgIssue5} className="main-img" alt="img issue5" />
             <p className="footer-title" >Issue #5</p>
             <p>
               <a className="link-issue6" href="https://brot.sk/products/backstage-talks-issue-6?_pos=2&_sid=1c5730cc8&_ss=r">BUY HERE</a>
-              </p>
+            </p>
             <p>
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issue4" className="container-scroll">
+            <div id="issueFour" className="container-scroll" data-anime="down">
             <img src={ImgIssue4} className="main-img" alt="img issue4" />
             <p className="footer-title" >Issue #4 is sold out.</p>
             <p>
               if you are lucky, you may get the last pieces in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issue3" className="container-scroll">
+            <div id="issueThree" className="container-scroll" data-anime="down">
             <img src={ImgIssue3} className="main-img" alt="img issue3" />
             <p className="footer-title" >Issue #3</p>
             <p>
@@ -60,7 +60,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issue2" className="container-scroll">
+            <div id="issueTwo" className="container-scroll" data-anime="down">
             <img src={ImgIssue2} className="main-img" alt="img issue2" />
             <p className="footer-title" >Issue #2</p>
             <p>
@@ -70,7 +70,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issue1" className="container-scroll">
+            <div id="issueOne" className="container-scroll" data-anime="down">
             <img src={ImgIssue1} className="main-img" alt="img issue1" />
             <p className="footer-title" >Issue #1 is sold out.</p>
             <p>
