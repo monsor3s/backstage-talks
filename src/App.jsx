@@ -23,7 +23,7 @@ function App() {
         </div>
         <div className="section-central">
           <div className="scroll-section">
-            <div id="issueSix" className="container-scroll" data-anime="down">
+            <div id="issueSix" className="container-scroll" data-anime="six">
               <img src={ImgIssue6} className="main-img" alt="img issue6" />
               <p className="footer-title" >Issue #6</p>
               <p>
@@ -33,7 +33,7 @@ function App() {
                 or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
               </p>
             </div>
-            <div id="issueFive" className="container-scroll" data-anime="down">
+            <div id="issueFive" className="container-scroll" data-anime="five">
             <img src={ImgIssue5} className="main-img" alt="img issue5" />
             <p className="footer-title" >Issue #5</p>
             <p>
@@ -43,14 +43,14 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issueFour" className="container-scroll" data-anime="down">
+            <div id="issueFour" className="container-scroll" data-anime="four">
             <img src={ImgIssue4} className="main-img" alt="img issue4" />
             <p className="footer-title" >Issue #4 is sold out.</p>
             <p>
               if you are lucky, you may get the last pieces in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issueThree" className="container-scroll" data-anime="down">
+            <div id="issueThree" className="container-scroll" data-anime="three">
             <img src={ImgIssue3} className="main-img" alt="img issue3" />
             <p className="footer-title" >Issue #3</p>
             <p>
@@ -60,7 +60,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issueTwo" className="container-scroll" data-anime="down">
+            <div id="issueTwo" className="container-scroll" data-anime="two">
             <img src={ImgIssue2} className="main-img" alt="img issue2" />
             <p className="footer-title" >Issue #2</p>
             <p>
@@ -70,7 +70,7 @@ function App() {
               or in <a className="link-issue6" href="https://backstagetalks.com/stocklist.php">selected stores</a>.
             </p>
             </div>
-            <div id="issueOne" className="container-scroll" data-anime="down">
+            <div id="issueOne" className="container-scroll" data-anime="one">
             <img src={ImgIssue1} className="main-img" alt="img issue1" />
             <p className="footer-title" >Issue #1 is sold out.</p>
             <p>
