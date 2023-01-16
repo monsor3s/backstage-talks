@@ -50,9 +50,6 @@
 .section-central
   height: auto
   display: flex
-  // position: absolute
-  // left: 50%
-  // right: 50%
   flex-direction: column
   justify-content: center
   align-items: center
@@ -126,9 +123,12 @@
   
 
 [data-anime="six"]
-  transform: translate3d(0,0,0)
+  // transform: translate3d(0,-757px,0)
   transition: all 700ms ease 0s
 
 // [data-anime="five"]
 //   transform: translate3d(0,-757px,0)
 //   transition: all 700ms ease 0s
+
+[data-anime].animate
+  transform: translate3d(0px,0px,0px)
