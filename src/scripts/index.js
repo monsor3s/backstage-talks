@@ -2,7 +2,14 @@ const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate'
 
   function changeBackground() {
-    console.log('sdadsaaa')
+    const windowTop = window.pageYOffset;
+    target.forEach(function(element) {
+      if((windowTop) > element.offsetTop) {
+        element.classList.add(animationClass)
+      } else {
+        element.classList.remove(animationClass)
+      }
+    })
   }
 
 window.addEventListener('scroll', function(){
